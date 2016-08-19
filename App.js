@@ -6,6 +6,7 @@ class App extends React.Component {
 
   render() {
     return (
+      <div>
         <div className='container'>
           <div className='jumbotron'>
             <h1 className='text-center'>The Life and Times of Kurt Gödel</h1>
@@ -38,6 +39,10 @@ class App extends React.Component {
             </dl>
             </div>
           </div>
+        </div>
+        <div className='text-center'>
+          <a className='btn btn-info' href={'https://en.wikipedia.org/wiki/Kurt_G%C3%B6del'} target='_blank'>Click here to learn more about Kurt Godel!</a>
+        </div>
         </div>
     );
   }
